@@ -1,0 +1,39 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# configuration files
+packages/backend/src/config.ts
+packages/backend/.env
+packages/frontend/.env*
+
+# dependencies
+node_modules
+packages/frontend/node_modules
+packages/backend/node_modules
+package-lock.json
+
+# testing
+packages/frontend/coverage
+packages/backend/test
+
+# production
+packages/frontend/build
+packages/backend/.build
+packages/backend/.serverless
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.idea
+.vscode/
+*.swp
+*.swo
+
+# log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*

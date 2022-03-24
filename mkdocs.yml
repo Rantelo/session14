@@ -1,0 +1,22 @@
+site_name: Sample Documentation
+nav:
+  - index.md
+
+images:
+  - images/versionControl/verControl.png
+
+theme:
+  name: material
+  palette:
+    primary: black
+    accent: indigo
+
+extra_css:
+  - css/extra.css
+
+plugins:
+  - search
+  - macros
+
+docs_dir: documds
+site_dir: docs

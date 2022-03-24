@@ -1,0 +1,23 @@
+name: Docker
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Build Docker image
+      run: docker build . --file Dockerfile -t academyimg:latest
+
+    - name: Build static site
+      run: docker run --rm --volume="$PWD:/app" -t academyimg:latest mkdocs build
+
+    - name: Update site
+      run: |
+        git pull
+        git config --global user.name "Roberto Antelo"
+        git config --global user.email "roberto_antelo@hotmail.com"
+        git commit -am "Automated site update"
+        git push
