@@ -1,5 +1,7 @@
 # Welcome to the sample documentation project!
 
+## Congratulations on finishing the Academy
+
 This is a sample project to showcase the construction of an static site by using industry standard tools.
 
 You can create a website like this by using the following technologies:
