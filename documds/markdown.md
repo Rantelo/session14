@@ -1,4 +1,4 @@
-# Markdown
+# Markdown cheatsheet
 Markdown is a lightweight text format syntax that enables you to write web pages using an easy-to-read and easy-to-write text format.
 
 Unlike text editors such as Microsoft Word or Google Docs that enable you to see as you write the final result of your edits to use Markdown, you must manually enter the corresponding syntax that indicates how text should look like on a web page. You must also mmanually enter the syntax that indicates that an image, a table, or a link must be displayed.
@@ -202,5 +202,3 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
 \````
 ````
-
-{% include 'scripts.md' %}

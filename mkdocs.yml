@@ -1,6 +1,7 @@
 site_name: Sample Documentation
 nav:
   - index.md
+  - markdown.md
 
 images:
   - images/versionControl/verControl.png
