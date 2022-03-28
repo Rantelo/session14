@@ -12,7 +12,7 @@ jobs:
       run: docker build . --file Dockerfile -t academyimg:latest
 
     - name: Build static site
-      run: docker run --rm --volume="$PWD:/app" -t academyimg:latest mkdocs build
+      run: docker run --rm --volume="$(pwd):/app" -t academyimg:latest mkdocs build
 
     - name: Update site
       run: |
